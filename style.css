@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: grey;
+	background: #FFE5B4;
 }
 
 
@@ -8,11 +8,17 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: cyan;
+	background-color: #FFB84D;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	text-align: center;
+}
+
+.container  img {
+	width: 50%;
+	font-size: 20px;
+	color: #333;
 }
 
 .nav ul {
@@ -39,9 +45,11 @@ body {
 }
 
 .nav a:hover {
-	background: white;
-	border-radius: 5px;
-	padding: 10px;
+  text-decoration: underline;    
+  text-decoration-color: white;  
+  background: none;              
+  border-radius: 0;             
+  padding: 10px;                
 }
 
 .cards {
@@ -58,7 +66,7 @@ body {
 }
 
 .card {
-	background: white;
+	background: #FFD580;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -87,4 +95,23 @@ body {
 	height: 20px;
 	justify-content: center;
 	align-items: center;
+}
+
+#Portofolio a {
+	text-decoration: none;
+	color: black;
+	outline: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#Portofolio a:hover {
+	background: white; 
+	border-radius: 5px; 
+	padding: 10px;
+	
+}
+
+.tools {
+	background: white; 
+	border-radius: 5px; 
+	padding: 10px;
 }
